@@ -3,7 +3,7 @@
 This directory contains the Docker Compose setup for Kestra, an orchestration and scheduling platform, along with PostgreSQL and PgAdmin, for homework 2. 
 
 
-## GCP Setup:
+## GCP Setup
 
 In the Google cloud console, create a new project, create a service account and download the JSON key file. 
 
@@ -48,19 +48,19 @@ serviceAccount: "{{secret('GCP_SERVICE_ACCOUNT')}}"
 
 5. The taxi data is processed using the kestra-gcp-scheduled.yaml flow in the flow directory.
 
-##Assignment Answers: 
+## Assignment Answers 
 
 1. Within the execution for Yellow Taxi data for the year 2020 and month 12: what is the uncompressed file size (i.e. the output file yellow_tripdata_2020-12.csv of the extract task)? Refer image: q1.png
 
- > 134.5 MiB
+ > Answer: 134.5 MiB
 
 2. What is the rendered value of the variable file when the inputs taxi is set to green, year is set to 2020, and month is set to 04 during execution?
 
- > green_tripdata_2020-04.csv
+ > Answer: green_tripdata_2020-04.csv
 
 3.  How many rows are there for the Yellow Taxi data for all CSV files in the year 2020?
 
- > 24648499
+ > Answer: 24648499
 
 Execute the Kestra flow for all the months of 2020 in the yellow taxi dataand count the number of rows using the following query:
 
