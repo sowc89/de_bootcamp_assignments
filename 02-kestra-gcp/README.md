@@ -36,7 +36,7 @@ serviceAccount: "{{secret('GCP_SERVICE_ACCOUNT')}}"
 
 2.  Start the services using Docker Compose:
     ```bash
-   docker compose -p kestra-gcp up -d
+    docker compose -p kestra-gcp up -d
     ```
 
 3. Access the Kestra UI at [http://localhost:8080](http://localhost:8080).
